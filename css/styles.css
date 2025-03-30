@@ -263,6 +263,26 @@ img {
 .team-title,
 .team-text {
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-media-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    text-align: center;
+    padding: 12px;
+}
+
+.social-icon {
+    fill: #fff;
 }
 
 /*.portfolio-item:hover,
@@ -289,6 +309,12 @@ img {
 .page-footer {
     background-color: #2E2F42;
     padding: 100px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start;
+    gap: 120px;
 }
 
 .footer-logo {
